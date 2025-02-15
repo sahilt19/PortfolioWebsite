@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: rgb(0, 0, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color:rgb(92, 17, 142);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: beige;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.03rem;
+}
+
+
+.left {
+    font-size: xx-large;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 30%;
+
+}
+
+.leftSection {
+    font-size: xx-large;
+
+}
+
+/* .leftSection .buttons{
+    
+} */
+
+.leftSection .btn {
+    background:rgb(92, 17, 142);
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.rightSection {
+    width: 80%;
+}
+
+.newcolor {
+    color: burlywood;
+}
+
+#element {
+    color: burlywood;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(95, 60, 129);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+
+.secondSection h1 {
+    font-size: xx-large;
+    font-weight: 10;
+}
+
+.secondSection hr {
+    width: 100px;
+    margin-left: 0%;
+    margin-top: 3px;
+}
+
+.secSectionfirstdiv {
+    text-align: center;
+    margin: 30px;
+    color: darkgray;
+}
+
+.secondSection .box {
+    background: rgb(242, 240, 237);
+    width: 75vw;
+    height: 2px;
+    margin: 56px -10px;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: whitesmoke;
+    margin: 0 140px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 100px;
+    width: 180px;
+    font-size: 17px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 115px;
+    width: 250px;
+    font-size: 12px;
+    color: darkturquoise;
+}
+
+footer {
+    background-color:rgb(92, 17, 142);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: center;
+    /* Center the content vertically */
+    padding: 30px;
+}
+
+.footer-first {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-second {
+    padding-top: 10px;
+
+}
+
+.footer-second ul {
+    display: flex;
+    /* Use flexbox for the list */
+    gap: 50px;
+    /* Space out the items evenly */
+    list-style: none;
+    /* Remove bullet points */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+}
+
+.footer-second ul li a {
+    text-decoration: none;
+    /* Remove underline from links */
+    color: white;
+    /* Set link color */
+    font-weight: 500;
+    /* Make text slightly bolder */
+}
+
+.footer-second ul li a:hover {
+    color: lightblue;
+    /* Add a hover effect for better interactivity */
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: 100px;
+    height: 100vh;
+
+
+}
+
+.thirdSection h1 {
+    font-size: xx-large;
+    margin-bottom: 50px;
+    font-weight: 10;
+}
+
+.thirdSection hr {
+    margin-left: -2px;
+    margin-top: -48px;
+    width: 80px;
+}
+
+.third-section-1 {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 20px;
+    width: 110%
+}
+
+.third-section-1 h5 {
+    margin-bottom: 20px;
+}
+
+.third-section-1 p {
+    color: darkturquoise;
+}
+
+.third-sec-proj-desc-2 img {
+    width: 35px;
+}
+
+.third-sec-proj-desc-3 img {
+    width: 35px;
+    height: 35px;
+}
+
+.fourthSection {
+    max-width: 80vw;
+    margin: 100px;
+    height: 60vh;
+}
+
+.fourthSection h1 {
+    font-size: xx-large;
+    font-weight: 10;
+}
+
+.fourthSection hr {
+    margin-left: 2px;
+    margin-top: 4px;
+    width: 100px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-inputs {
+    border-radius: 50px;
+    border: none;
+    height: 45px;
+    width: 300px;
+    padding-left: 25px;
+    outline: none;
+    font-weight: 300;
+    color: rgb(1, 1, 1);
+}
+
+.contact-inputs:focus{
+    border: 8px solid #ff994f;
+}
+
+.contact-inputs::placeholder{
+    color: gray;
+}
+
+.contact-left button {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color:rgb(128, 91, 153);
+    cursor: pointer;
+}
+
+
+#contact-form{
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: auto;
+}
+
+.contact-info textarea{
+    height: 150px;
+    border: none;
+    width: 300px;
+    padding-left: 25px;
+    outline: none;
+    font-weight: 300;
+    border-radius: 30px;
+    color: rgb(1, 1, 1);
+    font-family: 'Poppins', sans-serif;
+    text-align:start;
+}
+
+.contact-info textarea:focus{
+    border: 8px solid #ff994f;
+}
